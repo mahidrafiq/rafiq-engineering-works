@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="650" viewBox="0 0 1800 650">
+<rect width="1800" height="650" fill="#fff"/>
+<!-- REW structural mark -->
+<g transform="translate(90 150)">
+ <path d="M0 0h145l70 70-70 70H0l58-70z" fill="#111"/>
+ <path d="M44 34h78l35 36-35 36H44l30-36z" fill="#fff"/>
+ <path d="M205 0h170l-48 46H205z" fill="#ff6a00"/>
+ <path d="M205 61h150l-48 46H205z" fill="#ff6a00"/>
+ <path d="M205 122h130l-48 46H205z" fill="#ff6a00"/>
+ <path d="M350 0h105l-78 70 78 70H350l-70-70z" fill="#222"/>
+</g>
+<text x="620" y="325" font-family="Arial,Helvetica,sans-serif" font-size="150" font-weight="900" letter-spacing="3" fill="#111">RAFIQ</text>
+<text x="625" y="395" font-family="Arial,Helvetica,sans-serif" font-size="45" font-weight="800" letter-spacing="12" fill="#111">ENGINEERING WORKS</text>
+<line x1="625" y1="435" x2="1280" y2="435" stroke="#ff6a00" stroke-width="8"/>
+<text x="625" y="480" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" letter-spacing="8" fill="#555">INNOVATION IS OUR PASSION</text>
+</svg>

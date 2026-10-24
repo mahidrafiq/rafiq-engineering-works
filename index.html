@@ -1,0 +1,1099 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<title>Rafiq Engineering Works</title>
+<meta name="theme-color" content="#1b1b1b">
+<meta property="og:title" content="Rafiq Engineering Works, Nambal, Anantnag">
+<meta property="og:description" content="Gates, grills, shutters, vehicle bodies, machining and repairs, made to your measurements. Get a free quote on WhatsApp.">
+<meta property="og:type" content="website">
+<meta name="description" content="Rafiq Engineering Works, Nambal, Anantnag: fabrication, machining, lathe jobs, welding and repairs, plus made-to-measure gates, grills, shutters and automobile bodies. Led by NIF award-winning blacksmith Mohd Rafiq Ahanger. Get a free quote.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..900&family=Instrument+Sans:wght@400;500;600&family=Montserrat:wght@800;900&display=swap">
+<style>
+/* Rafiq Engineering Works brand system: charcoal, steel grey, and Engineering Orange.
+   Full-bleed bands: hero, maker, innovations, quote, and footer. */
+:root {
+  --paper: #f5f5f4;
+  --paper-2: #e5e5e5;
+  --card: #ffffff;
+  --ink: #1b1b1b;
+  --steel: #575757;
+  --line: #d6d6d6;
+  --dark: #1b1b1b;
+  --dark-2: #2c2c2c;
+  --on-dark: #f4f4f4;
+  --on-dark-2: #b8b8b8;
+  --accent: #ff6a00;
+  --accent-text: #9a3f00;
+  --accent-hi: #ff6a00;
+  --on-accent: #1b1b1b;
+  --wa: #187a40;
+  --bgx: transparent;
+  --display: "Archivo", "Arial Black", "Helvetica Neue", Arial, sans-serif;
+  --body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 400 1.0625rem/1.65 var(--body);
+  padding-block: 0;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+img { max-width: 100%; }
+.wrap { max-width: 72rem; margin: 0 auto; }
+a { color: inherit; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid var(--accent-hi); outline-offset: 2px; }
+h1, h2, h3, h4 { font-family: var(--display); font-weight: 800; font-stretch: 112%; line-height: 1.04; margin: 0; text-wrap: balance; letter-spacing: -0.012em; }
+h2 { font-size: clamp(1.9rem, 4.4vw, 3rem); }
+h3 { font-size: 1.45rem; }
+h4 { font-size: 1.15rem; }
+p { margin: 0; max-width: 65ch; }
+.label { font: 600 0.78rem/1.2 var(--body); letter-spacing: 0.16em; text-transform: uppercase; color: var(--steel); display: flex; align-items: center; gap: 0.6rem; }
+.label::before { content: ""; width: 1.7rem; height: 2px; background: var(--accent); flex: none; }
+.hero .label, #innov-teaser .label, #quote .label, .cta-band .label { color: var(--accent-hi); }
+
+/* full-bleed bands and dark contexts */
+.topbar, .hero, .creds, #maker, #innov-teaser, #quote, footer { background-color: var(--bgx); box-shadow: 0 0 0 100vmax var(--bgx); clip-path: inset(0 -100vmax); }
+.topbar, .hero, #innov-teaser, #quote, footer, .cta-band { --logo-main: #ffffff; --logo-grey: #b9b9b9; --bgx: var(--dark); --accent: var(--accent-hi); --on-accent: #1b1b1b; color: var(--on-dark); }
+.creds { --bgx: var(--accent); color: #1b1b1b; }
+#maker { --bgx: var(--paper-2); }
+
+/* buttons */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.95rem 1.5rem; font: 600 1rem/1.1 var(--body); text-decoration: none; border: 2px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; min-height: 3.1rem; }
+.btn:hover { background: var(--ink); color: var(--paper); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.btn.primary:hover { filter: brightness(1.08); background: var(--accent); color: var(--on-accent); }
+.btn.wa { background: var(--wa); border-color: var(--wa); color: #fff; }
+.btn.wa:hover { filter: brightness(1.1); background: var(--wa); color: #fff; }
+.btn.ghost-dark { border-color: rgba(255,255,255,0.4); color: var(--on-dark); }
+.btn.ghost-dark:hover { background: var(--on-dark); color: var(--dark); border-color: var(--on-dark); }
+.row { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+
+/* top strip and header */
+.topbar { font-size: 0.9rem; }
+.topbar-in { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.2rem 1.5rem; padding-block: 0.55rem; }
+.topbar a { font-weight: 600; text-decoration: none; color: var(--accent); }
+.topbar a:hover { text-decoration: underline; }
+.bar { display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; justify-content: space-between; align-items: center; padding-block: 1.1rem; }
+.brand { display: flex; align-items: center; gap: 0.9rem; text-decoration: none; }
+.rew { width: 6rem; height: auto; flex: none; display: block; }
+.rew .m { fill: var(--logo-main, #1b1b1b); }
+.rew .o { fill: #ff6a00; }
+.rew .g { fill: var(--logo-grey, #6b6b6b); }
+.brand .wm { display: grid; gap: 0.2rem; padding-left: 0.9rem; border-left: 2px solid var(--ink); }
+.brand .wm b { font: 900 1.7rem/0.9 "Montserrat", var(--display); letter-spacing: 0.03em; text-transform: uppercase; }
+.brand .wm small { font: 800 0.6rem/1 "Montserrat", var(--body); letter-spacing: 0.26em; text-transform: uppercase; color: var(--steel); padding-top: 0.25rem; border-top: 3px solid #ff6a00; }
+.bar nav { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 1.5rem; }
+.bar nav a:not(.btn) { text-decoration: none; font-weight: 500; padding-block: 0.3rem; border-bottom: 2px solid transparent; }
+.bar nav a:not(.btn):hover { border-bottom-color: var(--accent); }
+.bar .btn { padding: 0.65rem 1.1rem; min-height: 0; }
+
+/* hero */
+.hero { display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr); gap: 2rem 3rem; align-items: center; padding-block: clamp(2.4rem, 6vw, 4.8rem); }
+.hero h1 { font-size: clamp(2.3rem, 6.2vw, 4.5rem); font-weight: 900; font-stretch: 120%; text-transform: uppercase; margin-block: 1rem 1.2rem; line-height: 1; }
+.hero h1 span { color: var(--accent); }
+.hero .lead { font-size: 1.15rem; color: var(--on-dark-2); }
+.hero .row { margin-top: 1.8rem; }
+.proof { list-style: none; margin: 1.8rem 0 0; padding: 0; display: grid; gap: 0.5rem; font-size: 0.98rem; }
+.proof li { display: flex; gap: 0.7rem; align-items: baseline; }
+.proof li::before { content: ""; flex: none; width: 0.6rem; height: 2px; background: var(--accent); transform: translateY(-0.28em); }
+.herophoto { margin: 0; justify-self: center; width: min(100%, 24rem); position: relative; }
+.hp-img { position: relative; }
+.hp-img::before { content: ""; position: absolute; inset: 1rem -1rem -1rem 1rem; border: 3px solid var(--accent); z-index: 0; }
+.herophoto img { position: relative; z-index: 1; display: block; width: 100%; height: auto; max-height: 31rem; object-fit: cover; background: var(--dark-2); }
+.herophoto figcaption { position: relative; z-index: 1; margin-top: 1.6rem; font-size: 0.9rem; color: var(--on-dark-2); }
+.gate { width: 100%; height: auto; display: block; max-width: 26rem; margin-inline: auto; }
+
+/* sections */
+section { padding-block: 4.5rem 0; scroll-margin-top: 1rem; }
+#maker, #innov-teaser, #quote { padding-block: 4.5rem; margin-top: 4.5rem; }
+#maker { margin-top: 0; }
+#quote { margin-bottom: 0; }
+.sec-head { display: grid; gap: 0.7rem; margin-bottom: 2.2rem; max-width: 46rem; }
+.sec-head p { color: var(--steel); }
+#innov-teaser .sec-head p, #quote .side p { color: var(--on-dark-2); }
+#innov-teaser .sec-head h2, #quote h2 { color: #fff; }
+
+/* credentials band */
+.creds { margin-top: 4.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 1.4rem 2rem; padding-block: 2.2rem; }
+.creds b { display: block; font: 900 3.4rem/1 var(--display); font-stretch: 125%; }
+.creds span { display: block; margin-top: 0.4rem; font-size: 0.98rem; max-width: 22rem; }
+
+/* products */
+.products { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.product { background: var(--dark); color: var(--on-dark); padding: 1.7rem; display: flex; flex-direction: column; gap: 0.6rem; min-height: 14rem; border: 1px solid var(--dark); min-width: 0; transition: transform 0.15s, background 0.15s, border-color 0.15s; }
+.product:first-child { grid-column: span 2; }
+.product:last-child { grid-column: span 3; min-height: 0; }
+.product svg { width: 3rem; height: 3rem; fill: none; stroke: var(--accent-hi); stroke-width: 2.2; stroke-linecap: square; }
+.product h3 { font-size: 1.6rem; color: #fff; }
+.product:first-child h3 { font-size: 2.2rem; }
+.product p { color: var(--on-dark-2); font-size: 1rem; }
+.product a { margin-top: auto; padding-top: 0.7rem; font-weight: 600; text-decoration: none; color: var(--accent-hi); align-self: flex-start; border-bottom: 2px solid transparent; }
+.product a:hover { border-bottom-color: var(--accent-hi); }
+.product:hover { background: var(--dark-2); border-color: var(--accent-hi); transform: translateY(-3px); }
+
+/* icons and call box */
+.ic { width: 1.15em; height: 1.15em; flex: none; vertical-align: -0.2em; }
+.topbar .loc { display: inline-flex; align-items: center; gap: 0.4rem; }
+.topbar a { display: inline-flex; align-items: center; gap: 0.4rem; }
+.facts dt { display: flex; align-items: center; gap: 0.4rem; }
+.morewrap { margin-top: 1rem; }
+
+/* work photos */
+.gallery { column-width: 16rem; column-gap: 1rem; margin-top: 1rem; }
+.gallery figure { margin: 0 0 1rem; break-inside: avoid; background: var(--card); border: 1px solid var(--line); border-bottom: 3px solid var(--accent); }
+.gallery img { display: block; width: 100%; height: auto; }
+.gallery.compact { column-width: auto; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; }
+.gallery.compact figure { margin: 0; }
+.gallery.compact img { aspect-ratio: 4 / 3; object-fit: cover; }
+@media (max-width: 40rem) { .gallery.compact { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem; } .gallery.compact figcaption { display: none; } }
+.back-bottom { display: inline-block; margin: 1.6rem 0 2.5rem; }
+.gnote { margin-top: 0.8rem; color: var(--steel); max-width: 40rem; }
+.gallery figcaption { padding: 0.6rem 0.8rem; font-size: 0.95rem; color: var(--steel); }
+.gallery button { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in; }
+
+/* how it works */
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 1.2rem; counter-reset: s; }
+.steps li { counter-increment: s; background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--accent); padding: 1.3rem 1.3rem 1.5rem; }
+.steps li::before { content: "Step " counter(s); display: block; font: 600 0.76rem/1 var(--body); letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent-text); margin-bottom: 0.6rem; }
+.steps h3 { font-size: 1.5rem; margin-bottom: 0.4rem; }
+.steps p { color: var(--steel); }
+
+/* maker */
+.maker { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: 2.5rem 3.5rem; align-items: start; }
+.maker figure { margin: 0; background: var(--dark); padding: 0.6rem; border-bottom: 6px solid var(--accent); }
+.maker figure img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: 55% 50%; }
+.maker .col { display: grid; gap: 1.1rem; min-width: 0; }
+.maker .col p { color: var(--steel); }
+.maker .col strong { color: var(--ink); font-weight: 600; }
+.milestones { list-style: none; margin: 0.4rem 0 0; padding: 0; display: grid; border-top: 2px solid var(--ink); }
+.milestones li { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 0.2rem 1rem; padding-block: 0.95rem; border-bottom: 1px solid #cccccc; }
+.milestones b { font: 800 1.35rem/1.1 var(--display); font-stretch: 118%; color: var(--accent-text); }
+.milestones span { min-width: 0; }
+.milestones strong { display: block; color: var(--ink); }
+.milestones small { color: var(--steel); font-size: 0.95rem; }
+.inventions { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: 0.9rem; margin-top: 0.4rem; }
+.inventions div { background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--dark); padding: 1.1rem; min-width: 0; }
+.inventions h4 { margin-bottom: 0.3rem; }
+.inventions p { font-size: 0.95rem; }
+
+/* team */
+.team { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: 1.1rem; }
+.person { margin: 0; background: var(--card); border: 1px solid var(--line); min-width: 0; }
+.person img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
+.person figcaption { padding: 0.95rem 1.1rem; font: 800 1.35rem/1.1 var(--display); font-stretch: 112%; border-top: 4px solid var(--accent); }
+
+/* press */
+.press { list-style: none; margin: 0; padding: 0; display: grid; border-top: 2px solid var(--ink); }
+.press a { display: grid; grid-template-columns: minmax(0, 12rem) minmax(0, 1fr); gap: 0.2rem 1.5rem; padding-block: 0.9rem; text-decoration: none; border-bottom: 1px solid var(--line); }
+.press a:hover strong { text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.press span { font-size: 0.9rem; color: var(--steel); }
+.press strong { font-weight: 600; }
+
+/* quote */
+.quote { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 2rem 3.5rem; }
+.quote h2 { margin-block: 0.7rem 1rem; }
+.quote .side .row { margin-top: 1.4rem; }
+.facts { margin: 1.6rem 0 0; display: grid; gap: 0.9rem; }
+.facts dt { font: 600 0.75rem/1.2 var(--body); letter-spacing: 0.14em; text-transform: uppercase; color: var(--on-dark-2); }
+.facts dd { margin: 0.15rem 0 0; font-weight: 500; overflow-wrap: anywhere; }
+form { display: grid; gap: 1rem; align-content: start; background: var(--card); color: var(--ink); padding: clamp(1.2rem, 3vw, 2rem); min-width: 0; border-top: 6px solid var(--accent); }
+form h3 { font-size: 1.8rem; }
+.field { display: grid; gap: 0.35rem; min-width: 0; }
+.field label { font-weight: 600; font-size: 0.95rem; }
+.field input, .field select, .field textarea { width: 100%; font: 400 1rem/1.4 var(--body); color: var(--ink); background: #fff; border: 2px solid #8a8a8a; padding: 0.75rem 0.85rem; border-radius: 0; }
+.field textarea { min-height: 6.5rem; resize: vertical; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: 1rem; }
+.err { color: #a82a0a; font-weight: 600; font-size: 0.95rem; min-height: 1.2em; }
+.result { background: #eaf5ee; border: 2px solid var(--wa); padding: 1rem; display: grid; gap: 0.8rem; }
+.result pre { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font: 400 0.95rem/1.5 var(--body); background: #fff; border: 1px solid var(--line); padding: 0.75rem; }
+.hint { font-size: 0.92rem; color: var(--steel); }
+form .btn.primary { --accent: #ff6a00; --on-accent: #1b1b1b; }
+
+.flogo { display: flex; align-items: center; gap: 0.9rem; flex-basis: 100%; padding-bottom: 1rem; margin-bottom: 0.4rem; border-bottom: 1px solid rgba(255,255,255,0.15); color: var(--on-dark); font: 700 0.8rem/1.2 var(--body); letter-spacing: 0.2em; text-transform: uppercase; }
+.flogo .rew { width: 6.5rem; }
+.flogo b { display: block; font: 900 1.7rem/1 "Montserrat", var(--display); letter-spacing: 0.05em; }
+.flogo small { display: block; margin-top: 0.4rem; color: var(--accent); letter-spacing: 0.22em; font-size: 0.7rem; }
+footer { margin-top: 0; padding-block: 1.6rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem 2rem; font-size: 0.95rem; color: var(--on-dark-2); }
+
+/* designer */
+.designer { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 1.25rem; }
+.ctl { background: var(--card); border: 1px solid var(--line); border-top: 6px solid var(--dark); padding: 1.4rem; display: grid; gap: 1rem; align-content: start; min-width: 0; }
+.ctl select:disabled { background: #edf1f0; color: var(--steel); }
+.preview { background-color: #fff; background-image: linear-gradient(rgba(27,27,27,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(27,27,27,0.08) 1px, transparent 1px); background-size: 24px 24px; border: 1px solid var(--line); padding: 1rem; display: grid; gap: 0.8rem; align-content: center; min-width: 0; }
+.preview svg { width: 100%; height: auto; max-height: 27rem; display: block; }
+.preview .dimtxt { font: 600 12px var(--body); fill: var(--steel); }
+.speclabel { font: 800 1.45rem/1.1 var(--display); font-stretch: 112%; color: var(--ink); }
+.dnote { font-size: 0.92rem; color: var(--steel); }
+
+/* innovations */
+.innovs { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: 1.1rem; align-items: start; }
+.innov { background: var(--card); color: var(--ink); border: 1px solid var(--line); border-top: 6px solid var(--accent-hi); display: grid; grid-template-rows: auto 1fr; min-width: 0; }
+.pmedia { background-color: #fff; background-image: linear-gradient(rgba(27,27,27,0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(27,27,27,0.07) 1px, transparent 1px); background-size: 16px 16px; border-bottom: 1px solid var(--line); display: grid; place-items: center; min-height: 11rem; }
+.pmedia svg { width: 6.5rem; height: 6.5rem; fill: none; stroke: var(--ink); stroke-width: 2; stroke-linecap: square; stroke-linejoin: miter; }
+.pmedia svg .hot { stroke: #ff6a00; }
+.pmedia img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.pmedia.ok svg { display: none; }
+.innov .info { padding: 1.2rem 1.3rem 1.4rem; display: grid; gap: 0.6rem; align-content: start; }
+.innov .label, #innov-teaser .innov .label { color: var(--steel); }
+.innov h3 { font-size: 1.7rem; }
+.innov p { color: var(--steel); }
+.innov .row { margin-top: 0.4rem; }
+.innov .btn { padding: 0.75rem 1.2rem; min-height: 0; }
+.back { font-weight: 600; text-decoration: none; color: var(--accent-text); }
+.back:hover { text-decoration: underline; }
+.specs { margin: 0; padding-left: 1.1rem; color: var(--steel); font-size: 0.95rem; }
+.price { font: 800 1.4rem/1.1 var(--display); color: var(--ink); }
+.cta-band { padding: clamp(1.4rem, 4vw, 2.2rem); display: grid; gap: 0.7rem; margin-top: 2.5rem; background-color: var(--bgx); border-bottom: 6px solid var(--accent); }
+.cta-band p { color: var(--on-dark-2); }
+.cta-band .row { margin-top: 0.6rem; }
+
+/* chips, faq, lightbox, floating button */
+.chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.chip { border: 2px solid var(--line); background: #fff; color: var(--ink); padding: 0.45rem 0.85rem; font: 600 0.92rem/1.1 var(--body); cursor: pointer; }
+.chip:hover { border-color: var(--ink); }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.lb { position: fixed; inset: 0; z-index: 50; background: rgba(14,14,14,0.92); display: grid; place-items: center; padding: 1rem; }
+.lb figure { margin: 0; display: grid; gap: 0.6rem; max-width: min(100%, 60rem); }
+.lb img { max-width: 100%; max-height: 80vh; margin-inline: auto; display: block; }
+.lb figcaption { color: var(--on-dark); text-align: center; }
+.lb > .btn.lb-nav { top: 50%; transform: translateY(-50%); padding: 0.8rem 1.1rem; font-size: 1.3rem; background: rgba(14,14,14,0.6); }
+.lb > .btn.lb-prev { left: max(8px, env(safe-area-inset-left, 0px)); right: auto; }
+.lb > .btn.lb-next { right: max(8px, env(safe-area-inset-right, 0px)); }
+.lb > .btn { position: absolute; top: max(12px, env(safe-area-inset-top, 0px)); right: max(12px, env(safe-area-inset-right, 0px)); }
+.faq { border-top: 2px solid var(--ink); max-width: 52rem; }
+.faq details { border-bottom: 1px solid var(--line); }
+.faq summary { cursor: pointer; list-style: none; padding: 1.1rem 0; font: 800 1.35rem/1.15 var(--display); font-stretch: 108%; display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; color: var(--accent-text); font-size: 1.8rem; line-height: 1; }
+.faq details[open] summary::after { content: "\2212"; }
+.faq details p { padding-bottom: 1.1rem; color: var(--steel); }
+.fab { position: fixed; z-index: 15; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); background: var(--wa); color: #fff; text-decoration: none; font: 600 1rem/1 var(--body); padding: 0.95rem 1.2rem; display: inline-flex; align-items: center; gap: 0.55rem; box-shadow: 0 8px 22px rgba(0,0,0,0.3); }
+.fab:hover { filter: brightness(1.1); }
+.fab svg { width: 1.3rem; height: 1.3rem; fill: none; stroke: #fff; stroke-width: 2.2; }
+@keyframes dr { to { stroke-dashoffset: 0; } }
+@keyframes fi { to { opacity: 1; } }
+.gate.draw path { stroke-dasharray: 2000; stroke-dashoffset: 2000; animation: dr 2.4s cubic-bezier(.5,0,.2,1) forwards; }
+.gate.draw g[fill] { opacity: 0; animation: fi 0.7s 1.9s forwards; }
+
+/* sticky phone bar */
+.dock { display: none; }
+@media (max-width: 60rem) {
+  .products { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .product:first-child, .product:last-child { grid-column: span 2; }
+}
+@media (max-width: 48rem) {
+  .hero, .maker, .quote, .designer { grid-template-columns: minmax(0, 1fr); }
+  .press a { grid-template-columns: minmax(0, 1fr); }
+  .milestones li { grid-template-columns: minmax(0, 1fr); }
+  .herophoto { width: min(100%, 20rem); margin-right: 1rem; }
+  .herophoto img { max-height: 22rem; }
+  .bar nav a:not(.btn) { display: none; }
+  .maker figure { max-width: 26rem; }
+  .fab { display: none !important; }
+  footer { padding-bottom: 6.2rem; }
+  .topbar-in > span, .topbar-in > span.loc { display: none; }
+  .dock { display: flex; gap: 0.6rem; position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; padding: 0.6rem max(16px, env(safe-area-inset-right, 0px)) calc(0.6rem + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); background: var(--dark); border-top: 3px solid var(--accent-hi); }
+  .dock .btn { flex: 1; min-height: 2.9rem; padding-inline: 0.8rem; --accent: #ff6a00; --on-accent: #1b1b1b; }
+}
+@media (max-width: 40rem) {
+  .products { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; }
+  .product:first-child, .product:last-child { grid-column: span 2; }
+  .product { padding: 1rem; min-height: 0; gap: 0.4rem; }
+  .product h3, .product:first-child h3 { font-size: 1.15rem; }
+  .product p { font-size: 0.9rem; }
+  .product a { font-size: 0.9rem; }
+  .team { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.6rem; }
+  .person figcaption { padding: 0.55rem 0.5rem; font-size: 0.85rem; border-top-width: 3px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .gate.draw path { animation: none; stroke-dashoffset: 0; }
+  .gate.draw g[fill] { animation: none; opacity: 1; }
+  .product, .product:hover { transition: none; transform: none; }
+}
+</style>
+</head>
+<body>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3h3l1.5 4.2-2 1.4a11 11 0 0 0 5.3 5.3l1.4-2L20 13.4v3A2.6 2.6 0 0 1 17.4 19C9.9 19 5 14.1 5 6.6A2.6 2.6 0 0 1 6.6 3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6.1-6.5-11A6.5 6.5 0 0 1 18.5 10c0 4.9-6.5 11-6.5 11z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.4" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+</defs></svg>
+<div class="wrap">
+  <div class="topbar"><div class="topbar-in"><span class="loc"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Nambal, Anantnag, Jammu and Kashmir</span><a href="#" data-call hidden><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>Call <span data-phone-text></span></span></a></div></div>
+  <header class="bar">
+    <a class="brand" href="#top" aria-label="Rafiq Engineering Works, home"><svg class="rew" viewBox="114 88 1826 568" aria-hidden="true"><path class="m" fill-rule="evenodd" d="M114 93L236 238H580L560 334H412L410 386L665 654H864L673 443L788 258L644 94Z M227 337H394V652H227Z"/><path class="o" d="M695 95L822 239H1143L1059 94Z M818 297H1169L1254 442H726Z M786 503H1285L1370 653H916Z"/><path class="m" d="M1113 90H1259L1525 485L1439 652Z"/><path class="g" d="M1422 301L1504 115L1646 333L1786 90H1940L1645 639Z"/></svg><span class="wm"><b>Rafiq</b><small>Engineering Works</small></span></a>
+    <nav aria-label="Sections">
+      <a href="#maker">About</a>
+      <a href="#products">What we make</a>
+      <a href="#work">Our work</a>
+      <a href="#innovations">Innovations</a>
+      <a href="#design">Design yours</a>
+      <a class="btn primary" href="#quote" data-wa>Get a free quote</a>
+    </nav>
+  </header>
+
+  <div id="view-home">
+
+  <div class="hero" id="top">
+    <div>
+      <p class="label" style="color:var(--accent-hi)">Fabrication workshop &middot; Nambal, Anantnag</p>
+      <h1>Gates, grills and shutters, <span>made to your measurements.</span></h1>
+      <p class="lead">Fabrication, machining, welding and repairs for homes, shops, industry and vehicles in Anantnag and across Kashmir. Tell us what you need and we send you a quote.</p>
+      <div class="row">
+        <a class="btn primary" href="#quote" data-wa>Get a free quote</a>
+        <a class="btn ghost-dark" href="#" data-call hidden><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>Call <span data-phone-text></span></span></a>
+        <a class="btn ghost-dark" href="#design">Design yours</a>
+      </div>
+      <ul class="proof">
+        <li>Led by Mohd Rafiq Ahanger, a blacksmith and National Innovation Foundation award winner</li>
+        <li>Fabricated in our own workshop in Nambal, Anantnag</li>
+        <li>Gates, grills, shutters, vehicle bodies, lathe work, welding and repairs</li>
+      </ul>
+    </div>
+    <figure class="herophoto">
+      <div class="hp-img"><img src="img/work/black-gold-gate.jpg" alt="Black steel gate with gold arched panels and sunflower medallions, made by Rafiq Engineering Works" width="960" height="1280" fetchpriority="high"></div>
+      <figcaption>Recent work: black gate with gold arched panels</figcaption>
+    </figure>
+  </div>
+
+  <section id="maker">
+    <div class="sec-head">
+      <span class="label">The maker behind the workshop</span>
+      <h2>Meet Mohd Rafiq Ahanger</h2>
+    </div>
+    <div class="maker">
+      <figure><img src="img/rafiq.jpg" alt="Mohd Rafiq Ahanger at an official meeting" width="720" height="720" loading="lazy"></figure>
+      <div class="col">
+        <p><strong>A blacksmith by trade and an inventor by habit.</strong> Rafiq Ahanger comes from Sirgufwara village in south Kashmir. He studied up to class 10, took modest jobs, and at the age of 20 started his own workshop to support his family. Alongside everyday fabrication, he builds tools of his own design. His company, Rafiq Innovations Private Limited, was set up in 2017 and appears on the National Innovation Foundation incubation council's records.</p>
+        <p>His best-known work is a <strong>multipurpose carpentry tool</strong> made of high carbon steel. One tool converts into up to eight: axe, saw, hammer, chisel, nail remover, sharpener, knife and screwdriver. He made it for farmers and households who carry several tools for small jobs.</p>
+        <ul class="milestones">
+          <li><b>2017</b><span><strong>State award in engineering</strong><small>Honoured for the Multipurpose Axe at the 9th National Grassroots Innovation Awards, Rashtrapati Bhavan, New Delhi, on 4 March 2017.</small></span></li>
+          <li><b>2017</b><span><strong>Rafiq Innovations Private Limited</strong><small>Company set up, with Mohd Rafiq Ahanger as a director from 3 April 2017.</small></span></li>
+          <li><b>2018</b><span><strong>Kashmir Creates, Episode 1</strong><small>Featured first in Project FUEL's film series on Kashmir's grassroots innovators.</small></span></li>
+          <li><b>2018</b><span><strong>Innovation Scholar In-Residence</strong><small>Selected for the programme at Rashtrapati Bhavan, New Delhi.</small></span></li>
+          <li><b>SRISTI</b><span><strong>SRISTI Samman Award</strong><small>Received from the Honey Bee Network for the Multipurpose Tool, at a ceremony in Ahmedabad attended by Prof. Anil K. Gupta, founder of the Honey Bee Network.</small></span></li>
+        </ul>
+        <div class="inventions">
+          <div><h4>Multipurpose tool</h4><p>Axe, saw, hammer, chisel, nail remover, sharpener, knife and screwdriver in one steel tool.</p></div>
+          <div><h4>More on record</h4><p>Ergonomic spade, automatic sieve, safety jacket for walnut harvesting, foldable ladder, modified ladder for apple harvesting, multipurpose study table, and prototypes of room heating pads and a dehulling machine. <a href="#innovations" style="color:var(--accent-text);font-weight:600">See all innovations</a></p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="team">
+    <div class="sec-head">
+      <span class="label">The team</span>
+      <h2>The people who build your job</h2>
+    </div>
+    <div class="team">
+      <figure class="person"><img src="img/rafiq.jpg" alt="Mohd Rafiq Ahanger" width="720" height="720" loading="lazy" style="object-position:55% 50%"><figcaption>Mohd Rafiq Ahanger</figcaption></figure>
+      <figure class="person"><img src="img/zahid.jpg" alt="Zahid Rafiq" width="640" height="640" loading="lazy"><figcaption>Zahid Rafiq</figcaption></figure>
+      <figure class="person"><img src="img/bilal.jpg" alt="Bilal Ahmad Ahanger" width="640" height="640" loading="lazy"><figcaption>Bilal Ahmad Ahanger</figcaption></figure>
+    </div>
+  </section>
+
+  <div class="creds" aria-label="Recognition">
+    <div><b>2017</b><span>State award in engineering from the National Innovation Foundation</span></div>
+    <div><b>2018</b><span>Innovation Scholar In-Residence, Rashtrapati Bhavan, New Delhi</span></div>
+    <div><b>2018</b><span>First innovator featured in Project FUEL's Kashmir Creates series</span></div>
+  </div>
+
+  <section id="products">
+    <div class="sec-head">
+      <span class="label">What we make</span>
+      <h2>Fabrication, machining and repair</h2>
+      <p>Custom metal work built to your specification, from gates and grills to lathe jobs and repairs. Pick what you need and ask for a quote.</p>
+    </div>
+    <ul class="products">
+      <li class="product">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 42V18Q6 8 24 8T42 18V42M24 8V42M6 28H42M12 20V42M18 14V42M30 14V42M36 20V42"/></svg>
+        <h3>Gates</h3>
+        <p>Steel gates for homes, shops and compounds, made to the width of your entrance.</p>
+        <a href="#quote" data-need="Gate">Quote for a gate &rarr;</a>
+      </li>
+      <li class="product">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="6" width="36" height="36"/><path d="M6 24H42M24 6V42M15 6V42M33 6V42M6 15H42M6 33H42M24 13L35 24L24 35L13 24Z"/></svg>
+        <h3>Grills</h3>
+        <p>Window and door grills in iron and steel, welded square and ready to fit.</p>
+        <a href="#quote" data-need="Grill">Quote for grills &rarr;</a>
+      </li>
+      <li class="product">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="6" width="36" height="36"/><path d="M6 13H42M6 20H42M6 27H42M6 34H42M20 39H28"/></svg>
+        <h3>Shutters</h3>
+        <p>Rolling and fixed shutters for shopfronts and storage rooms.</p>
+        <a href="#quote" data-need="Shutter">Quote for a shutter &rarr;</a>
+      </li>
+      <li class="product">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M3 32V16H23V32M23 22H33L42 29V32"/><circle cx="12" cy="35" r="4"/><circle cx="34" cy="35" r="4"/><path d="M3 32H8M16 32H30M38 32H44"/></svg>
+        <h3>Automobile bodies</h3>
+        <p>Steel bodies for vehicles, fabricated in our workshop.</p>
+        <a href="#quote" data-need="Automobile body">Quote for a vehicle body &rarr;</a>
+      </li>
+      <li class="product">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 8H40V14H8ZM8 34H40V40H8ZM21 14H27V34H21Z"/></svg>
+        <h3>Steel structures and assemblies</h3>
+        <p>Mild steel and stainless steel structures, frames, tanks and custom assemblies built to spec. Bring a sketch or a photo and we build from it.</p>
+        <a href="#quote" data-need="Other iron or steel work">Quote for custom work &rarr;</a>
+      </li>
+      <li class="product">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="8"/><path d="M24 4V12M24 36V44M4 24H12M36 24H44M10 10L16 16M32 32L38 38M38 10L32 16M16 32L10 38"/></svg>
+        <h3>Machining and lathe jobs</h3>
+        <p>Lathe, drilling, milling and boring for shafts, bushes, flanges and spare parts.</p>
+        <a href="#quote" data-need="Machining or lathe job">Quote for machining &rarr;</a>
+      </li>
+      <li class="product">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 40L24 24M24 24A8 8 0 0 1 36 14L31 19L32 24L37 25L42 20A8 8 0 0 1 24 24Z"/></svg>
+        <h3>Repairs</h3>
+        <p>Motor shafts, pump parts, hydraulic components, gearbox repair and heavy machinery maintenance.</p>
+        <a href="#quote" data-need="Repair">Quote for a repair &rarr;</a>
+      </li>
+      <li class="product">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 42L26 22M26 22L32 16L38 22L32 28ZM24 8V14M38 10L34 14M42 24H36"/></svg>
+        <h3>Welding</h3>
+        <p>Arc, TIG and MIG welding with clean finishing.</p>
+        <a href="#quote" data-need="Welding">Quote for welding &rarr;</a>
+      </li>
+      <li class="product">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="8" width="26" height="12"/><path d="M21 20V42M34 12H41M8 14H4"/></svg>
+        <h3>New tools and machines</h3>
+        <p>Have an idea for a tool or machine? The workshop designs and builds prototypes, the way the multipurpose tool began.</p>
+        <a href="#quote" data-need="A new tool or machine">Talk about your idea &rarr;</a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="work" hidden>
+    <div class="sec-head">
+      <span class="label">Our work</span>
+      <h2>Gates, doors and railings we have made</h2>
+    </div>
+    <div class="chips" id="gchips"></div>
+    <p class="gnote" id="gnote" hidden>Reference designs for inspiration. These are not our finished jobs. Tell us the style you like and we build it to your size.</p>
+    <div class="gallery" id="gallery"></div>
+    <div class="morewrap"><button class="btn" type="button" id="gmore" aria-expanded="false"></button></div>
+  </section>
+
+  <section id="innov-teaser">
+    <div class="sec-head">
+      <span class="label">Innovation is our passion</span>
+      <h2>Tools, prototypes and engineering ideas</h2>
+      <p>Tools, prototypes and practical ideas developed in our own workshop in Nambal. Order the multipurpose axe or the smokeless bukhari directly on WhatsApp, or ask about the rest.</p>
+    </div>
+    <ul class="innovs" id="innov-teaser-list"></ul>
+    <div class="row" style="margin-top:1.4rem"><a class="btn primary" href="#innovations">See all innovations &rarr;</a></div>
+  </section>
+
+  <section id="design">
+    <div class="sec-head">
+      <span class="label">Design it first</span>
+      <h2>See your gate or grill at your size</h2>
+      <p>Pick a type, a style and your measurements. The drawing updates as you type. Add it to your quote request and the workshop will confirm the final design with you.</p>
+    </div>
+    <div class="designer">
+      <div class="ctl">
+        <div class="field"><span class="label" style="color:var(--steel)">Quick start</span>
+          <div class="chips" id="presets">
+            <button class="chip" type="button" data-t="gate" data-s="Spear tops" data-w="12" data-h="6">Main gate, 12 x 6 ft</button>
+            <button class="chip" type="button" data-t="gate" data-s="Plain bars" data-w="8" data-h="5">Small gate, 8 x 5 ft</button>
+            <button class="chip" type="button" data-t="grill" data-s="Diamond lattice" data-w="4" data-h="4">Window grill, 4 x 4 ft</button>
+            <button class="chip" type="button" data-t="shutter" data-s="Rolling slats" data-w="8" data-h="8">Shop shutter, 8 x 8 ft</button>
+          </div></div>
+        <div class="field"><label for="d-type">What are you building?</label>
+          <select id="d-type"><option value="gate">Double gate</option><option value="grill">Window or door grill</option><option value="shutter">Shutter</option></select></div>
+        <div class="field"><label for="d-style">Style</label><select id="d-style"></select></div>
+        <div class="two">
+          <div class="field"><label for="d-w">Width (feet)</label><input id="d-w" type="number" min="2" max="30" step="0.5" value="12" inputmode="decimal"></div>
+          <div class="field"><label for="d-h">Height (feet)</label><input id="d-h" type="number" min="2" max="14" step="0.5" value="6" inputmode="decimal"></div>
+        </div>
+        <p class="speclabel" id="d-spec" aria-live="polite"></p>
+        <p class="dnote" id="d-area" aria-live="polite" style="font-weight:600;color:var(--ink)"></p>
+        <button class="btn primary" type="button" id="d-use">Use this design in my quote</button>
+        <p class="dnote">The drawing is a guide to the look and proportions, not a final plan.</p>
+      </div>
+      <div class="preview"><svg id="d-svg" viewBox="0 0 520 380" role="img" aria-label="Drawing of your design at your size"></svg></div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="sec-head">
+      <span class="label">How it works</span>
+      <h2>From your message to a finished job</h2>
+    </div>
+    <ol class="steps">
+      <li><h3>Tell us what you need</h3><p>Send the type of work, the rough size and where it goes. A photo or a sketch helps.</p></li>
+      <li><h3>Get your quote</h3><p>We reply with a price for your job. Ask us about fitting and delivery at the same time.</p></li>
+      <li><h3>We build it</h3><p>Your job is cut, welded and finished in the workshop in Nambal.</p></li>
+    </ol>
+  </section>
+
+
+
+  <section id="recognition">
+    <div class="sec-head">
+      <span class="label">In the record</span>
+      <h2>Where our work is documented</h2>
+    </div>
+    <ul class="press">
+      <li><a href="https://artsandculture.google.com/asset/mohd-rafiq-ahanger-project-fuel/PAHJga0afHx85A" target="_blank" rel="noopener"><span>Google Arts &amp; Culture</span><strong>Mohd. Rafiq Ahanger, Project FUEL (2018)</strong></a></li>
+      <li><a href="https://greaterkashmir.com/uncategorized/from-hammer-to-innovator-muhammad-rafiqs-journey-defying-odds-in-kashmir" target="_blank" rel="noopener"><span>Greater Kashmir</span><strong>From hammer to innovator: Muhammad Rafiq's journey defying odds in Kashmir</strong></a></li>
+      <li><a href="https://kashmirlife.net/eight-grassroots-innovators-kashmir-honoured-rashtripati-bhawan-134293/" target="_blank" rel="noopener"><span>Kashmir Life</span><strong>Eight grassroots innovators of Kashmir honoured at Rashtrapati Bhavan</strong></a></li>
+      <li><a href="https://nifientrec.org/multipurpose-carpentry-tools/" target="_blank" rel="noopener"><span>NIFientreC</span><strong>Multipurpose Carpentry Tools by Rafiq Innovations</strong></a></li>
+      <li><a href="https://nif.org.in/upload/state-books/NIF_Jammu-Kashmir_Innovates.pdf" target="_blank" rel="noopener"><span>National Innovation Foundation</span><strong>Jammu &amp; Kashmir Innovates (Honey Bee Network)</strong></a></li>
+    </ul>
+  </section>
+
+  <section id="faq">
+    <div class="sec-head">
+      <span class="label">Questions</span>
+      <h2>Before you ask for a quote</h2>
+    </div>
+    <div class="faq">
+      <details><summary>How do I get a price?</summary><p>Use the quote form below or message us on WhatsApp. Tell us what you need, the size and where it will be fitted. A photo or a sketch helps. We reply with a quote for your job.</p></details>
+      <details><summary>What measurements should I give?</summary><p>Width and height, in feet or inches. For a gate, measure the gap between the pillars. For a window grill, measure the frame opening. If you are unsure, send a photo and we will tell you what to measure.</p></details>
+      <details><summary>Can you make something that is not on your list?</summary><p>Yes. The workshop makes custom metal work from a sketch or photo, takes on lathe jobs, welding and repairs, and builds its own tools and machines. The multipurpose carpentry tool is one example.</p></details>
+      <details><summary>Do you do fitting and delivery?</summary><p>Tell us where the job is when you ask for a quote, and we will confirm fitting and delivery for your location.</p></details>
+      <details><summary>Where is the workshop?</summary><p>Rafiq Engineering Works, Nambal, Anantnag, Jammu and Kashmir 192125. Use the Google Maps link in the contact section for directions.</p></details>
+      <details><summary>Who runs the workshop?</summary><p>Mohd Rafiq Ahanger, a blacksmith and National Innovation Foundation award winner, leads the workshop with Zahid Rafiq and Bilal Ahmad Ahanger.</p></details>
+    </div>
+  </section>
+
+  <section id="quote">
+    <div class="quote">
+      <div class="side">
+        <span class="label" style="color:var(--accent-hi)">Free quote</span>
+        <h2>Tell us what you need built</h2>
+        <p>Fill in the form and send it to us on WhatsApp. Include the size and where the work will be fitted, and attach a photo in the chat if you have one.</p>
+        <div class="row">
+          <a class="btn wa" href="#form" data-wa-plain hidden>Chat on WhatsApp</a>
+          <a class="btn ghost-dark" href="#" data-call hidden><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>Call <span data-phone-text></span></span></a>
+          <a class="btn ghost-dark" href="https://maps.app.goo.gl/KAzx85YmtYeUpez29?g_st=ac" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg><span>Directions</span></a>
+        </div>
+        <dl class="facts">
+          <div class="fact"><dt><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Workshop</dt><dd>Rafiq Engineering Works, Nambal, Anantnag, Jammu and Kashmir 192125</dd></div>
+          <div class="fact" data-phones hidden><dt><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Phone</dt><dd></dd></div>
+          <div data-email-row hidden><dt>Email</dt><dd data-email-text></dd></div>
+          <div class="fact"><dt><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Directions</dt><dd><a href="https://maps.app.goo.gl/KAzx85YmtYeUpez29?g_st=ac" target="_blank" rel="noopener">Open in Google Maps</a></dd></div>
+        </dl>
+      </div>
+      <form id="form" novalidate>
+        <h3>Request a quote</h3>
+        <div class="two">
+          <div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" type="text" autocomplete="name"></div>
+          <div class="field"><label for="f-phone">Your phone number</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel"></div>
+        </div>
+        <div class="field">
+          <label for="f-need">What do you need?</label>
+          <select id="f-need" name="need">
+            <option value="">Choose one</option>
+            <option>Gate</option>
+            <option>Grill</option>
+            <option>Shutter</option>
+            <option>Automobile body</option>
+            <option>Other iron or steel work</option>
+            <option>Machining or lathe job</option>
+            <option>Repair</option>
+            <option>Welding</option>
+            <option>A new tool or machine</option>
+          </select>
+        </div>
+        <div class="field"><label for="f-details">Size and details</label><textarea id="f-details" name="details" placeholder="Example: Two-leaf gate, 12 feet wide, 6 feet high, for a house in Anantnag"></textarea></div>
+        <p class="err" id="err" role="alert"></p>
+        <button class="btn primary" type="submit">Prepare my quote request</button>
+        <div class="result" id="result" hidden aria-live="polite">
+          <strong>Your request is ready.</strong>
+          <pre id="msg"></pre>
+          <div class="row">
+            <a class="btn wa" id="send-wa" href="#" target="_blank" rel="noopener" hidden>Send on WhatsApp</a>
+            <button class="btn" type="button" id="copy">Copy message</button>
+          </div>
+          <p class="hint" id="note"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  </div>
+
+  <div id="view-innov" hidden>
+    <section id="innov-page">
+      <a class="back" href="#top">&larr; Back to home</a>
+      <div class="sec-head" style="margin-top:1.2rem">
+        <span class="label">Our innovations</span>
+        <h2>Our innovations and prototypes</h2>
+        <p>Tools, prototypes and practical ideas developed by Mohd Rafiq Ahanger and the team. Order the axe or the bukhari on WhatsApp, or ask about availability, specifications or a custom version.</p>
+      </div>
+      <ul class="innovs" id="innov-list"></ul>
+      <div class="cta-band">
+        <h3>Looking for something else?</h3>
+        <p>Tell us what you need. The workshop also takes custom fabrication, machining, welding and repair jobs.</p>
+        <div class="row">
+          <a class="btn wa" href="#form" data-wa-plain hidden>Chat on WhatsApp</a>
+          <a class="btn ghost-dark" href="#" data-call hidden><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>Call <span data-phone-text></span></span></a>
+          <a class="btn ghost-dark" href="#quote">Request a quote</a>
+        </div>
+      </div>
+      <a class="back back-bottom" href="#top">&larr; Back to home</a>
+    </section>
+  </div>
+
+  <footer>
+    <div class="flogo"><svg class="rew" viewBox="114 88 1826 568" aria-hidden="true"><path class="m" fill-rule="evenodd" d="M114 93L236 238H580L560 334H412L410 386L665 654H864L673 443L788 258L644 94Z M227 337H394V652H227Z"/><path class="o" d="M695 95L822 239H1143L1059 94Z M818 297H1169L1254 442H726Z M786 503H1285L1370 653H916Z"/><path class="m" d="M1113 90H1259L1525 485L1439 652Z"/><path class="g" d="M1422 301L1504 115L1646 333L1786 90H1940L1645 639Z"/></svg><span><b>Rafiq</b> Engineering Works<small>Innovation is our passion</small></span></div>
+    <span>&copy; Rafiq Engineering Works, Nambal, Anantnag, Jammu and Kashmir</span>
+    <span>Fabrication &middot; Machining &middot; Welding &middot; Repairs &middot; Gates &middot; Grills &middot; Shutters</span>
+  </footer>
+</div>
+
+<a class="fab" id="fab" href="#" target="_blank" rel="noopener" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-4.2A8 8 0 1 1 8.4 18.8z"/></svg>Quote on WhatsApp</a>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Photo">
+  <button class="btn ghost-dark" type="button" id="lb-close">Close</button>
+  <button class="btn ghost-dark lb-nav lb-prev" type="button" id="lb-prev" aria-label="Previous photo">&larr;</button>
+  <figure><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
+  <button class="btn ghost-dark lb-nav lb-next" type="button" id="lb-next" aria-label="Next photo">&rarr;</button>
+</div>
+
+<div class="dock" aria-label="Contact">
+  <a class="btn ghost-dark" href="#" data-call hidden><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>Call</span></a>
+  <a class="btn primary" href="#quote" data-wa>Get a free quote</a>
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Rafiq Engineering Works","description":"Fabrication, machining, lathe jobs, welding and repairs, plus made-to-measure gates, grills, shutters and automobile bodies in Nambal, Anantnag.","telephone":["+919419045463","+916005736668","+919149727274"],"address":{"@type":"PostalAddress","streetAddress":"Nambal","addressLocality":"Anantnag","addressRegion":"Jammu and Kashmir","postalCode":"192125","addressCountry":"IN"},"hasMap":"https://maps.app.goo.gl/KAzx85YmtYeUpez29","founder":{"@type":"Person","name":"Mohd Rafiq Ahanger"},"employee":[{"@type":"Person","name":"Zahid Rafiq"},{"@type":"Person","name":"Bilal Ahmad Ahanger"}],"knowsAbout":["Smokeless bukhari","Multipurpose axe","Fabrication","Machining","Lathe work","Welding","Repairs","Gates","Grills","Shutters","Automobile bodies"]}
+</script>
+
+<script>
+/* ---- EDIT THESE ----
+   whatsapp: number with country code, digits only, e.g. "919876543210"
+   phone:    same style, used for the Call buttons
+   phoneShow: how the number is displayed, e.g. "+91 98765 43210"
+   email:    optional
+   rates:    price per square foot in rupees for the designer's "indicative price".
+             Leave at 0 to show only the area. Example: rates: { gate: 450, grill: 300, shutter: 350 }
+   innovations: the list shown on the Innovations page. Add one { ... } per product:
+             name (required), desc (required), icon ("axe", "bukhari" or "tool"),
+             order (set to false to show it without an order button), status ("Prototype", "On record"),
+             photo ("img/products/your-photo.jpg"), price ("From Rs 1,500"), details (["Material: ...", "Size: ..."])
+   photos:   work photos, e.g. { src: "img/work/gate-1.jpg", caption: "Two-leaf gate, Anantnag", type: "Gates" }
+             type is optional and creates filter buttons (Gates, Grills, Shutters, ...)  */
+var CONFIG = {
+  whatsapp: "919419045463",
+  phone: "919419045463",
+  phoneShow: "+91 94190 45463",
+  phone2: "916005736668",
+  phone2Show: "+91 60057 36668",
+  phone3: "919149727274",
+  phone3Show: "+91 91497 27274",
+  email: "",
+  rates: { gate: 0, grill: 0, shutter: 0 },
+  innovations: [
+    { name: "Multipurpose axe", icon: "axe", status: "Awarded innovation", photo: "img/products/multipurpose-axe.jpg", ratio: "4 / 3",
+      desc: "Hammer, chisel, axe, blade and screwdriver in one tool, made of high carbon steel. Designed for farmers and households who carry several tools for small jobs. It won a National Innovation Foundation state award in 2017." },
+    { name: "Smokeless bukhari", icon: "bukhari", status: "Workshop design", photo: "img/products/smokeless-bukhari.jpg", ratio: "4 / 5",
+      desc: "A smokeless bukhari, the traditional Kashmiri room heater, built at the workshop for winters in the valley. Painted steel body with carrying handles, a chimney, a latched front door and a pull-out ash tray." },
+    { name: "Ergonomic spade", icon: "tool", order: false, status: "On record",
+      desc: "An ergonomic spade, one of the tools designed by Mohd Rafiq Ahanger." },
+    { name: "Automatic sieve", icon: "tool", order: false, status: "On record",
+      desc: "An automatic sieve designed by Mohd Rafiq Ahanger." },
+    { name: "Walnut harvesting safety jacket", icon: "tool", order: false, status: "On record",
+      desc: "A safety jacket for people harvesting walnuts." },
+    { name: "Modified ladder for apple harvesting", icon: "tool", order: false, status: "On record",
+      desc: "A modified ladder designed for apple harvesting." },
+    { name: "Foldable ladder", icon: "tool", order: false, status: "On record",
+      desc: "A foldable ladder designed by Mohd Rafiq Ahanger. Details and photos to follow." },
+    { name: "Multipurpose study table", icon: "tool", order: false, status: "On record",
+      desc: "A multipurpose study table designed at the workshop." },
+    { name: "Room heating pads", icon: "tool", order: false, status: "Prototype",
+      desc: "Prototype room heating pads built at the workshop." },
+    { name: "Dehulling machine", icon: "tool", order: false, status: "Prototype",
+      desc: "A prototype dehulling machine built at the workshop." }
+  ],
+  photos: [
+    { src: "img/work/green-gate.jpg", caption: "Green gate with scrolled top and bright flower detail", type: "Gates" },
+    { src: "img/work/blue-gold-gate-front.jpg", caption: "Steel-blue gate with vertical panels and gold border work", type: "Gates" },
+    { src: "img/work/black-gold-gate.jpg", caption: "Black gate with gold arched panels and sunflower medallions", type: "Gates" },
+    { src: "img/work/wood-look-gate.jpg", caption: "Wood-finish gate with pointed panels and border work", type: "Gates" },
+    { src: "img/work/green-peacock-gate.jpg", caption: "Arched gate with peacock motifs and diamond panels", type: "Gates" },
+    { src: "img/work/blue-arched-gate.jpg", caption: "Blue double gate with arched top and decorative panels", type: "Gates" },
+    { src: "img/work/grey-gate-horseshoe.jpg", caption: "Grey panel gate with silver motif and pull handle", type: "Gates" },
+    { src: "img/work/red-gate.jpg", caption: "Red gate with border work and a side opening leaf", type: "Gates" },
+    { src: "img/work/green-door.jpg", caption: "Steel door with glass panel and gold corner details", type: "Doors" },
+    { src: "img/work/garden-fence.jpg", caption: "Garden railing with steel ball caps", type: "Railings and grills" },
+    { src: "img/work/balcony-railing.jpg", caption: "Balcony railing with border pattern", type: "Railings and grills" },
+    { src: "img/work/balcony-railing-2.jpg", caption: "Balcony railing with flat bars and mesh panels", type: "Railings and grills" },
+    { src: "img/ideas/idea-slat-studs.jpg", caption: "Style idea: horizontal slats with steel strips", type: "Style ideas" },
+    { src: "img/ideas/idea-black-gold.jpg", caption: "Style idea: black and gold panel gate", type: "Style ideas" },
+    { src: "img/ideas/idea-pattern-top.jpg", caption: "Style idea: ribbed panels with a pattern top", type: "Style ideas" },
+    { src: "img/ideas/idea-vertical-bars.jpg", caption: "Style idea: tall vertical bars", type: "Style ideas" },
+    { src: "img/ideas/idea-aluminium-slat.jpg", caption: "Style idea: slim ribbed gate", type: "Style ideas" },
+    { src: "img/ideas/idea-balcony-frames.jpg", caption: "Style idea: nested-frame balcony railing", type: "Style ideas" }
+  ]
+};
+
+(function () {
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+
+  // Call buttons: plain tel: links, so the phone opens its dialer
+  function makeTel(a, n) { a.href = "tel:+" + n.replace(/\D/g, ""); }
+  $$("[data-call]").forEach(function (a) {
+    if (CONFIG.phone) {
+      makeTel(a, CONFIG.phone);
+      a.hidden = false;
+      var t = $("[data-phone-text]", a);
+      if (t) t.textContent = CONFIG.phoneShow;
+    }
+  });
+  // Phone numbers shown as text (tap to call)
+  var nums = [[CONFIG.phone, CONFIG.phoneShow], [CONFIG.phone2, CONFIG.phone2Show], [CONFIG.phone3, CONFIG.phone3Show]].filter(function (n) { return n[0]; });
+  if (nums.length) {
+    var pr = $("[data-phones]"), dd = $("dd", pr);
+    nums.forEach(function (n, k) {
+      if (k) dd.appendChild(document.createTextNode("  ·  "));
+      var a = document.createElement("a");
+      makeTel(a, n[0]); a.textContent = n[1];
+      dd.appendChild(a);
+    });
+    pr.hidden = false;
+  }
+  // Email
+  if (CONFIG.email) {
+    $$("[data-email-row]").forEach(function (r) { r.hidden = false; $("[data-email-text]", r).textContent = CONFIG.email; });
+  }
+  // WhatsApp links
+  function waUrl(text) { return "https://wa.me/" + CONFIG.whatsapp.replace(/\D/g, "") + "?text=" + encodeURIComponent(text); }
+  $$("[data-wa]").forEach(function (a) {
+    if (CONFIG.whatsapp) { a.href = "#quote"; }
+  });
+  $$("[data-wa-plain]").forEach(function (a) {
+    if (CONFIG.whatsapp) {
+      a.href = waUrl("Hello, I would like a quote from Rafiq Engineering Works.");
+      a.target = "_blank"; a.rel = "noopener"; a.hidden = false;
+    }
+  });
+  // Floating WhatsApp button (desktop)
+  if (CONFIG.whatsapp) {
+    var fab = $("#fab");
+    fab.href = waUrl("Hello, I would like a quote from Rafiq Engineering Works.");
+    fab.hidden = false;
+  }
+  // Innovations list (home preview and full page)
+  var ICONS = {
+    axe: '<path d="M9 42L29 14"/><path class="hot" d="M22 12L35 7L41 20L28 24Z"/><path d="M6 44L11 40"/>',
+    bukhari: '<path d="M12 18H36V38H12Z"/><path d="M12 18C12 12 36 12 36 18"/><path d="M20 38V43M28 38V43"/><path d="M24 11V4"/><path class="hot" d="M24 34C19 31 21 26 24 22C27 26 29 31 24 34Z"/>',
+    tool: '<rect x="8" y="8" width="26" height="12"/><path d="M21 20V42M34 12H41"/><circle class="hot" cx="38" cy="36" r="5"/>'
+  };
+  function innovCard(it, ask) {
+    var li = document.createElement("li"); li.className = "innov";
+    var media = document.createElement("div"); media.className = "pmedia";
+    if (it.photo) { var im = document.createElement("img"); im.src = it.photo; im.alt = it.name; im.loading = "lazy"; if (it.ratio) im.style.aspectRatio = it.ratio; media.appendChild(im); }
+    var sv = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    sv.setAttribute("viewBox", "0 0 48 48"); sv.setAttribute("aria-hidden", "true");
+    sv.innerHTML = ICONS[it.icon] || ICONS.tool; media.appendChild(sv);
+    var info = document.createElement("div"); info.className = "info";
+    if (it.status) { var tg = document.createElement("span"); tg.className = "label"; tg.textContent = it.status; info.appendChild(tg); }
+    var h = document.createElement("h3"); h.textContent = it.name; info.appendChild(h);
+    var p = document.createElement("p"); p.textContent = it.desc; info.appendChild(p);
+    if (it.details && it.details.length) {
+      var ul = document.createElement("ul"); ul.className = "specs";
+      it.details.forEach(function (d) { var l = document.createElement("li"); l.textContent = d; ul.appendChild(l); });
+      info.appendChild(ul);
+    }
+    if (it.price) { var pr = document.createElement("p"); pr.className = "price"; pr.textContent = it.price; info.appendChild(pr); }
+    var row = document.createElement("div"); row.className = "row";
+    var only = ask || it.order === false;
+    var a = document.createElement("a"); a.className = only ? "btn" : "btn wa"; a.href = "#quote";
+    a.textContent = only ? "Ask on WhatsApp" : "Order on WhatsApp";
+    a.setAttribute("data-order", ask ? "a tool or machine from the workshop (please tell me what is available)" : (only ? "more information about " + it.name + " (is it available, and at what price)" : it.name));
+    a.setAttribute("data-need", only ? "A new tool or machine" : it.name);
+    row.appendChild(a); info.appendChild(row);
+    li.appendChild(media); li.appendChild(info);
+    return li;
+  }
+  (function () {
+    var list = CONFIG.innovations || [], full = $("#innov-list"), teaser = $("#innov-teaser-list"), sel = $("#f-need");
+    list.forEach(function (it, i) {
+      full.appendChild(innovCard(it, false));
+      if (i < 3) teaser.appendChild(innovCard(it, false));
+      if (it.order !== false) { var o = document.createElement("option"); o.textContent = it.name; sel.appendChild(o); }
+    });
+    full.appendChild(innovCard({ name: "More from the workshop", icon: "tool", desc: "The team keeps building new tools and machines. Ask what is available now, or bring your own idea." }, true));
+    if (!list.length) $("#innov-teaser").hidden = true;
+  })();
+
+  // Order buttons for innovations
+  $$("[data-order]").forEach(function (a) {
+    if (CONFIG.whatsapp) {
+      a.href = waUrl("Hello Rafiq Engineering Works, I would like to order: " + a.getAttribute("data-order") + ".\nQuantity: \nMy location: ");
+      a.target = "_blank"; a.rel = "noopener";
+    }
+  });
+  // Product photos: shown when the file exists, otherwise the drawing stays
+  $$(".pmedia img").forEach(function (im) {
+    function ok() { im.parentNode.classList.add("ok"); }
+    function bad() { im.remove(); }
+    if (im.complete) { if (im.naturalWidth > 0) ok(); else bad(); }
+    else { im.addEventListener("load", ok); im.addEventListener("error", bad); }
+  });
+  // Work photos: filter buttons and enlarge on click
+  if (CONFIG.photos && CONFIG.photos.length) {
+    var g = $("#gallery"), chipsEl = $("#gchips"), lb = $("#lb"), lbImg = $("#lb-img"), lbCap = $("#lb-cap");
+    var figs = [], cur_i = 0;
+    function openAt(n) {
+      var f = figs[n]; if (!f) return;
+      cur_i = n; lbImg.src = f.src; lbImg.alt = f.alt; lbCap.textContent = f.cap;
+      lb.hidden = false; $("#lb-close").focus();
+    }
+    function step(d) {
+      var n = cur_i;
+      for (var k = 0; k < figs.length; k++) {
+        n = (n + d + figs.length) % figs.length;
+        if (!figs[n].el.hidden) { openAt(n); return; }
+      }
+    }
+    CONFIG.photos.forEach(function (p) {
+      var f = document.createElement("figure");
+      var b = document.createElement("button");
+      b.type = "button"; b.setAttribute("aria-label", "Enlarge photo" + (p.caption ? ": " + p.caption : ""));
+      var i = document.createElement("img");
+      i.src = p.src; i.alt = p.caption || "Work by Rafiq Engineering Works"; i.loading = "lazy";
+      b.appendChild(i); f.appendChild(b);
+      if (p.caption) { var c = document.createElement("figcaption"); c.textContent = p.caption; f.appendChild(c); }
+      var idx = figs.length;
+      b.addEventListener("click", function () { openAt(idx); });
+      g.appendChild(f); figs.push({ el: f, type: p.type || "", src: p.src, cap: p.caption || "", alt: i.alt });
+    });
+    var types = [], cur = "All", open = false, more = $("#gmore");
+    CONFIG.photos.forEach(function (p) { if (p.type && types.indexOf(p.type) < 0) types.push(p.type); });
+    var workCount = CONFIG.photos.filter(function (p) { return p.type !== "Style ideas"; }).length;
+    function limit() { return window.matchMedia("(max-width: 40rem)").matches ? 2 : 4; }
+    function render() {
+      var shown = 0;
+      figs.forEach(function (f) {
+        var ok = cur === "All" ? f.type !== "Style ideas" : f.type === cur;
+        if (ok && !open) { shown++; ok = shown <= limit(); }
+        f.el.hidden = !ok;
+      });
+      $("#gnote").hidden = !(open && cur === "Style ideas");
+      chipsEl.hidden = !open;
+      g.classList.toggle("compact", !open);
+      more.textContent = open ? "Show fewer photos" : "See all photos (" + workCount + ")";
+      more.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+    if (types.length > 1) {
+      ["All"].concat(types).forEach(function (t) {
+        var c = document.createElement("button");
+        c.type = "button"; c.className = "chip"; c.textContent = t; c.setAttribute("aria-pressed", t === "All" ? "true" : "false");
+        c.addEventListener("click", function () {
+          cur = t;
+          $$(".chip", chipsEl).forEach(function (x) { x.setAttribute("aria-pressed", x === c ? "true" : "false"); });
+          render();
+        });
+        chipsEl.appendChild(c);
+      });
+    }
+    more.addEventListener("click", function () {
+      open = !open;
+      if (!open) { cur = "All"; $$(".chip", chipsEl).forEach(function (x, i) { x.setAttribute("aria-pressed", i === 0 ? "true" : "false"); }); $("#work").scrollIntoView({ block: "start" }); }
+      render();
+    });
+    render();
+    function closeLb() { lb.hidden = true; lbImg.removeAttribute("src"); }
+    $("#lb-close").addEventListener("click", closeLb);
+    $("#lb-prev").addEventListener("click", function () { step(-1); });
+    $("#lb-next").addEventListener("click", function () { step(1); });
+    var tx = null;
+    lb.addEventListener("touchstart", function (e) { tx = e.touches[0].clientX; }, { passive: true });
+    lb.addEventListener("touchend", function (e) { if (tx === null) return; var dx = e.changedTouches[0].clientX - tx; tx = null; if (Math.abs(dx) > 50) step(dx < 0 ? 1 : -1); });
+    document.addEventListener("keydown", function (e) { if (lb.hidden) return; if (e.key === "ArrowRight") step(1); if (e.key === "ArrowLeft") step(-1); });
+    lb.addEventListener("click", function (e) { if (e.target === lb) closeLb(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !lb.hidden) closeLb(); });
+    $("#work").hidden = false;
+  }
+  // Product links preselect the form
+  $$("[data-need]").forEach(function (a) {
+    a.addEventListener("click", function () { $("#f-need").value = a.getAttribute("data-need"); });
+  });
+
+  // Quote form
+  var form = $("#form"), err = $("#err"), result = $("#result"), msg = $("#msg"), send = $("#send-wa"), note = $("#note");
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var name = $("#f-name").value.trim(), phone = $("#f-phone").value.trim(), need = $("#f-need").value, details = $("#f-details").value.trim();
+    if (!name || !phone || !need) {
+      err.textContent = "Please enter your name, your phone number and what you need.";
+      result.hidden = true;
+      return;
+    }
+    err.textContent = "";
+    var text = "Hello Rafiq Engineering Works, I would like a quote.\n\nName: " + name + "\nPhone: " + phone + "\nNeed: " + need + (details ? "\nDetails: " + details : "");
+    msg.textContent = text;
+    if (CONFIG.whatsapp) {
+      send.href = waUrl(text); send.hidden = false;
+      note.textContent = "Next: tap Send on WhatsApp and press send in the chat. Attach a photo of the place or a sketch there. The workshop replies with your quote.";
+    } else {
+      send.hidden = true;
+      note.textContent = "Copy this message and send it to the workshop. Contact details are in the panel beside this form.";
+    }
+    result.hidden = false;
+    result.scrollIntoView({ block: "nearest" });
+  });
+  $("#copy").addEventListener("click", function () {
+    var b = this, text = msg.textContent;
+    function done(ok) { b.textContent = ok ? "Copied" : "Select the text above and copy it"; setTimeout(function () { b.textContent = "Copy message"; }, 2500); }
+    try { navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(false); }); }
+    catch (x) { done(false); }
+  });
+})();
+
+/* Pages: home and innovations share one file, switched by the link hash. Going back returns to where the visitor was. */
+(function () {
+  var home = document.getElementById("view-home"), innov = document.getElementById("view-innov");
+  var savedY = null, wasInnov = false;
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest('a[href="#innovations"]');
+    if (a && !wasInnov) savedY = window.pageYOffset;
+    var back = e.target.closest && e.target.closest("a.back");
+    if (back && savedY !== null) {
+      e.preventDefault();
+      var y = savedY;
+      if (location.hash) { history.replaceState(null, "", location.pathname + location.search); }
+      route();
+      window.scrollTo(0, y);
+    }
+  });
+  function route() {
+    var h = (location.hash || "").replace("#", "");
+    var showInnov = h === "innovations";
+    home.hidden = showInnov; innov.hidden = !showInnov;
+    document.title = showInnov ? "Innovations | Rafiq Engineering Works" : "Rafiq Engineering Works";
+    var leaving = wasInnov && !showInnov;
+    wasInnov = showInnov;
+    if (showInnov) { window.scrollTo(0, 0); return; }
+    if (leaving && savedY !== null && (!h || h === "top")) { window.scrollTo(0, savedY); return; }
+    var el = h && document.getElementById(h);
+    if (el) el.scrollIntoView();
+  }
+  window.addEventListener("hashchange", route);
+  route();
+})();
+
+/* Design preview */
+(function () {
+  var $ = function (s) { return document.querySelector(s); };
+  var typeEl = $("#d-type"), styleEl = $("#d-style"), wEl = $("#d-w"), hEl = $("#d-h"), svg = $("#d-svg"), specEl = $("#d-spec"), areaEl = $("#d-area");
+  if (!typeEl || !svg) return;
+  var STYLES = { gate: ["Spear tops", "Plain bars", "Arched top"], grill: ["Square grid", "Diamond lattice", "Vertical bars"], shutter: ["Rolling slats"] };
+  var NAMES = { gate: "Double gate", grill: "Window grill", shutter: "Shutter" };
+  var NEED = { gate: "Gate", grill: "Grill", shutter: "Shutter" };
+  var INK = "#1b1b1b", ACC = "#ff6a00";
+
+  function fillStyles() {
+    styleEl.innerHTML = "";
+    STYLES[typeEl.value].forEach(function (s) { var o = document.createElement("option"); o.textContent = s; styleEl.appendChild(o); });
+    styleEl.disabled = STYLES[typeEl.value].length < 2;
+  }
+  function clamp(v, a, b) { v = parseFloat(v); if (isNaN(v)) v = a; return Math.min(b, Math.max(a, v)); }
+  function ln(x1, y1, x2, y2, w, c) { return '<line x1="' + x1 + '" y1="' + y1 + '" x2="' + x2 + '" y2="' + y2 + '" stroke="' + (c || INK) + '" stroke-width="' + w + '" stroke-linecap="square"/>'; }
+  function fmt(n) { return (Math.round(n * 10) / 10).toString(); }
+
+  function draw() {
+    var t = typeEl.value, st = styleEl.value;
+    var W = clamp(wEl.value, 2, 30), H = clamp(hEl.value, 2, 14);
+    var k = Math.min(420 / W, 270 / H), w = W * k, h = H * k;
+    var x = 56, y = 36, vbW = w + x + 64, vbH = h + y + 70, s = "";
+
+    if (t === "gate") {
+      var arched = st === "Arched top", spear = st === "Spear tops";
+      var rise = arched ? Math.min(h * 0.22, w * 0.2) : 0;
+      var n = Math.max(6, Math.round(W * 2.4));
+      var top = function (u) { return arched ? y + rise - 4 * rise * u * (1 - u) : y; };
+      if (arched) s += '<path d="M' + x + ' ' + (y + h) + ' L' + x + ' ' + (y + rise) + ' Q' + (x + w / 2) + ' ' + (y - rise) + ' ' + (x + w) + ' ' + (y + rise) + ' L' + (x + w) + ' ' + (y + h) + ' Z" fill="none" stroke="' + INK + '" stroke-width="5" stroke-linejoin="miter"/>';
+      else s += '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" fill="none" stroke="' + INK + '" stroke-width="5"/>';
+      for (var i = 1; i < n; i++) {
+        var u = i / n; if (Math.abs(u - 0.5) < 0.001) continue;
+        var bx = x + w * u, by = top(u);
+        s += ln(bx, by, bx, y + h, 2.2);
+        if (spear) s += '<path d="M' + (bx - 4) + ' ' + by + ' L' + bx + ' ' + (by - 11) + ' L' + (bx + 4) + ' ' + by + ' Z" fill="' + INK + '"/>';
+      }
+      s += ln(x + w / 2, top(0.5), x + w / 2, y + h, 4);
+      s += ln(x, y + h * 0.3 + rise * 0.4, x + w, y + h * 0.3 + rise * 0.4, 3.5);
+      s += ln(x, y + h * 0.78, x + w, y + h * 0.78, 3.5);
+      s += '<circle cx="' + (x + w / 2) + '" cy="' + (y + h * 0.54) + '" r="6" fill="' + ACC + '"/>';
+    } else if (t === "grill") {
+      var c = Math.max(12, Math.min(26, k * 0.55));
+      s += '<defs><pattern id="gp" width="' + c + '" height="' + c + '" patternUnits="userSpaceOnUse" x="' + x + '" y="' + y + '">';
+      if (st === "Square grid") s += '<path d="M0 0H' + c + 'M0 0V' + c + '" stroke="' + INK + '" stroke-width="2.2" fill="none"/>';
+      else if (st === "Diamond lattice") s += '<path d="M0 0L' + c + ' ' + c + 'M' + c + ' 0L0 ' + c + '" stroke="' + INK + '" stroke-width="2.2" fill="none"/>';
+      else s += '<path d="M0 0V' + c + '" stroke="' + INK + '" stroke-width="2.6" fill="none"/>';
+      s += '</pattern><clipPath id="gc"><rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '"/></clipPath></defs>';
+      s += '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" fill="url(#gp)" clip-path="url(#gc)"/>';
+      s += '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" fill="none" stroke="' + INK + '" stroke-width="5"/>';
+      s += '<rect x="' + (x + w / 2 - 7) + '" y="' + (y + h / 2 - 7) + '" width="14" height="14" transform="rotate(45 ' + (x + w / 2) + ' ' + (y + h / 2) + ')" fill="' + ACC + '"/>';
+    } else {
+      var sp = Math.max(6, Math.min(12, k * 0.2));
+      for (var yy = y + sp; yy < y + h - 4; yy += sp) s += ln(x, yy, x + w, yy, 1.6);
+      s += '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" fill="none" stroke="' + INK + '" stroke-width="5"/>';
+      s += ln(x + 2, y + h - 10, x + w - 2, y + h - 10, 6);
+      s += '<circle cx="' + (x + w / 2) + '" cy="' + (y + h - 10) + '" r="5" fill="' + ACC + '"/>';
+    }
+
+    // dimensions
+    var dy = y + h + 26, dx = x + w + 26;
+    s += '<g stroke="#6b7076" stroke-width="1.4" fill="none">' +
+      '<path d="M' + x + ' ' + dy + 'H' + (x + w) + 'M' + x + ' ' + (dy - 7) + 'V' + (dy + 7) + 'M' + (x + w) + ' ' + (dy - 7) + 'V' + (dy + 7) + '"/>' +
+      '<path d="M' + dx + ' ' + y + 'V' + (y + h) + 'M' + (dx - 7) + ' ' + y + 'H' + (dx + 7) + 'M' + (dx - 7) + ' ' + (y + h) + 'H' + (dx + 7) + '"/></g>';
+    s += '<text class="dimtxt" x="' + (x + w / 2) + '" y="' + (dy + 22) + '" text-anchor="middle">' + fmt(W) + ' ft wide</text>';
+    s += '<text class="dimtxt" transform="translate(' + (dx + 22) + ' ' + (y + h / 2) + ') rotate(90)" text-anchor="middle">' + fmt(H) + ' ft high</text>';
+
+    svg.setAttribute("viewBox", "0 0 " + Math.round(vbW) + " " + Math.round(vbH));
+    svg.innerHTML = s;
+    specEl.textContent = NAMES[t] + (STYLES[t].length > 1 ? ", " + st.toLowerCase() : "") + ", " + fmt(W) + " ft x " + fmt(H) + " ft";
+    var area = W * H, rate = (CONFIG.rates && CONFIG.rates[t]) || 0;
+    var areaTxt = "Area: " + fmt(area) + " sq ft";
+    if (rate > 0) areaTxt += " · Indicative price from ₹" + Math.round(area * rate).toLocaleString("en-IN") + " (final price is confirmed in your quote)";
+    areaEl.textContent = areaTxt;
+  }
+
+  typeEl.addEventListener("change", function () { fillStyles(); draw(); });
+  styleEl.addEventListener("change", draw);
+  wEl.addEventListener("input", draw);
+  hEl.addEventListener("input", draw);
+  $("#d-use").addEventListener("click", function () {
+    var need = $("#f-need"), det = $("#f-details");
+    need.value = NEED[typeEl.value];
+    var line = "Design: " + specEl.textContent;
+    det.value = det.value.replace(/^Design: .*\n?/, "");
+    det.value = line + (det.value ? "\n" + det.value : "");
+    document.getElementById("quote").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  Array.prototype.slice.call(document.querySelectorAll("#presets .chip")).forEach(function (c) {
+    c.addEventListener("click", function () {
+      typeEl.value = c.getAttribute("data-t"); fillStyles();
+      styleEl.value = c.getAttribute("data-s");
+      wEl.value = c.getAttribute("data-w"); hEl.value = c.getAttribute("data-h");
+      Array.prototype.slice.call(document.querySelectorAll("#presets .chip")).forEach(function (x) { x.setAttribute("aria-pressed", x === c ? "true" : "false"); });
+      draw();
+    });
+  });
+  fillStyles(); draw();
+  try {
+    if (!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches)) {
+      var gate = document.querySelector(".gate");
+      if (gate) gate.classList.add("draw");
+    }
+  } catch (e) {}
+})();
+</script>
+
+</body>
+</html>
